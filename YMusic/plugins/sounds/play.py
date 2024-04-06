@@ -12,7 +12,7 @@ import time
 
 import config
 
-PLAY_COMMAND = ["تشغيل", "شغل"]
+PLAY_COMMAND = ["تشغيل", "شغل", "قمر"]
 
 async def ytdl(format: str, link: str):
     stdout, stderr = await bash(f'yt-dlp --geo-bypass -g -f "[height<=?720][width<=?1280]" {link}')
