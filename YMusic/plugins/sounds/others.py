@@ -8,13 +8,13 @@ from YMusic.core import userbot
 from YMusic.misc import SUDOERS
 import config
 
-STOP_COMMAND = ["كافي", "ايقاف", "انهاء"]
+STOP_COMMAND = ["اسو", "ايقاف", "انهاء"]
 
 PAUSE_COMMAND = ["مؤقت", "وكف"]
 
 RESUME_COMMAND = ["استمرار"]
 
-MUTE_COMMAND = ["كتم"]
+MUTE_COMMAND = ["اسكت"]
 
 UNMUTE_COMMAND = ["رفع"]
 
